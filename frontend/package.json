@@ -1,0 +1,28 @@
+{
+  "name": "task-manager-frontend",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0 --port 5173",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@mdi/font": "^7.4.47",
+    "axios": "^1.8.4",
+    "chart.js": "^3.9.1",
+    "pinia": "^2.1.7",
+    "vue": "^3.4.21",
+    "vue-chart-3": "^3.1.8",
+    "vue-router": "^4.3.0",
+    "vuetify": "^3.8.1"
+  },
+  "devDependencies": {
+    "@types/chart.js": "^2.9.41",
+    "@vitejs/plugin-vue": "^5.2.3",
+    "sass": "^1.72.0",
+    "sass-embedded": "^1.72.0",
+    "typescript": "^5.3.3",
+    "vite": "^5.2.8",
+    "vite-plugin-vuetify": "^2.1.1"
+  }
+}

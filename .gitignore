@@ -1,0 +1,18 @@
+# Folders
+__pycache__/
+covenv/
+venv/
+uploads/
+
+# Files
+*.xlsx
+*.csv
+*.pdf
+
+# Environments
+.venv
+.env
+.idea
+.vscode
+
+
