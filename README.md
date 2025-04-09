@@ -10,8 +10,8 @@ cd backend
 python -m venv venv
 source venv/bin/activate  # Linux/Mac
 venv\Scripts\activate # Windows
-cd taskmanager
 pip install -r requirements.txt
+cd taskmanager
 python manage.py migrate
 python manage.py runserver
 ```
