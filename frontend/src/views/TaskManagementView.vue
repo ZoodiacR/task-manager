@@ -192,6 +192,7 @@ onMounted(async () => {
 
 const headers = [
   { text: 'Título', value: 'title', sortable: true },
+  { text: 'Descripción', value: 'description', sortable: false },
   { text: 'Estado', value: 'status', sortable: false },
   { text: 'Prioridad', value: 'priority', sortable: false },
   { text: 'Fecha Límite', value: 'due_date', sortable: true },
