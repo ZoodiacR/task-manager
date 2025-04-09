@@ -9,7 +9,8 @@ Aplicación full-stack para gestión de tareas con autenticación JWT.
 cd backend
 python -m venv venv
 source venv/bin/activate  # Linux/Mac
-venv\Scripts\activate  # Windows
+venv\Scripts\activate # Windows
+cd taskmanager
 pip install -r requirements.txt
 python manage.py migrate
 python manage.py runserver
